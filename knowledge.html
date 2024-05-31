@@ -11,6 +11,23 @@
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
+<style>
+  .card-text {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;  
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  .card-title {
+    display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;  
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  </style>
+
 <body>
     <nav class="navbar navbar-expand bg-light navigation-clean navbar-light" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
         <div class="container"><a class="navbar-brand" href="#">Brand</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"></button>
@@ -34,49 +51,44 @@
             <div class="row" style="margin-top: 20px;">
                 <h2 style="margin-bottom: 20px;">Featured Articles</h2>
                 <div class="col-sm" >
-                    <a href="https://www.theguardian.com" style="color: inherit;text-decoration: none;">
-                  <div class="card bg-light" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
-                    <img class="card-img-top" width="100" height="200" src="https://i.pinimg.com/originals/19/69/07/196907cb30a834a78b7acded14ba29d2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">News article</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <div class="card bg-light d-flex flex-column" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
+                    <img class="card-img-top" width="50px" height="500px" src="https://www.emsa.europa.eu/images/2020/thumbnails/cover-wind.JPG" alt="Card image cap">
+                    <div class="card-body flex-grow-1">
+                      <h5 class="card-title">Potential of wind-assisted propulsion for shipping</h5>
+                      <p class="card-text">
+                        The maritime industry faces substantive challenges due to increasingly strict air emissions and climate legislation as its practitioners navigate the course towards decarbonisation. Among the broad spectrum of technologies and fuel solutions being considered, wind-assisted propulsion systems (WAPSs) are seen as a technology that could reduce the fuel consumption from ships and, consequently, lower their greenhouse gas (GHG) and other emissions.</p>
                       <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px;">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="https://www.emsa.europa.eu/publications/reports/item/5078-potential-of-wind-assisted-propulsion-for-shipping.html" class="btn btn-primary">Read more</a>
                       </div>
                     </div>
                   </div>
-                  </a>
                 </div>
-                <div class="col-sm">
-                  <a href="https://www.theguardian.com" style="color: inherit;text-decoration: none;">
-                  <div class="card bg-light" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
-                    <img class="card-img-top" width="100" height="200" src="https://i.pinimg.com/originals/19/69/07/196907cb30a834a78b7acded14ba29d2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">News article</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <div class="col-sm" >
+                  <div class="card bg-light d-flex flex-column" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
+                    <img class="card-img-top" width="50px" height="500px" src="https://ars.els-cdn.com/content/image/X00298018.jpg" alt="Card image cap">
+                    <div class="card-body flex-grow-1">
+                      <h5 class="card-title">Health costs and economic impact of wind assisted ship propulsion</h5>
+                      <p class="card-text">
+                        World seaborne transportation is crucial for world trade and global economic growth. Shipping has been increasing since 2009, including oil & gas, dry bulk and container freight, and is very likely to continue this trend in the near future. However, international shipping also produces 2.7% of the world's total CO2 emissions, and globally, air pollutants emitted from international shipping are increasing due to the rise in trade. It is a well-established fact that Greenhouse Gasses (GHGs) cause climate change and that air pollutants trigger a range of health issues for humans. To demonstrate the applicability of the proposed framework, this paper will focus on a general assessment of the health-related externality of air pollution emitted from wind-assisted hybrid ship propulsion within two different emission reduction scenarios. The paper will further analyse the emission impact from both individual scenarios. A Chemical Transport Model (CTM) is used to estimate the realistic concentration of relevant air pollutants, and the Economic Valuation of Air-pollution Model (EVA) is applied to assessing the health-related economic externalities of air pollution.</p>
                       <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px;">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0029801817305334" class="btn btn-primary">Read more</a>
                       </div>
                     </div>
                   </div>
-                </a>
                 </div>
-                <div class="col-sm">
-                    <a href="https://www.theguardian.com" style="color: inherit;text-decoration: none;">
-                    <div class="card bg-light" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
-                    <img class="card-img-top" width="100" height="200" src="https://i.pinimg.com/originals/19/69/07/196907cb30a834a78b7acded14ba29d2.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">News article</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px;">
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+                <div class="col-sm" >
+                  <div class="card bg-light d-flex flex-column" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);">
+                    <img class="card-img-top" width="50px" height="500px" src="https://stumejournals.com/wp-content/uploads/2024/03/i4-1-2024-pdf-724x1024.jpg" alt="Card image cap">
+                    <div class="card-body flex-grow-1">
+                      <h5 class="card-title">Reducing GHG emissions using wind-assisted ship’s propulsion</h5>
+                      <p class="card-text">
+                        International trade is still heavily reliant on oceangoing vessels and the noxious bunker fuel that feeds most ships’ massive diesel engines. Although shipping contributes relatively small shares of GHG emissions per unit of transport work, without further action, emissions from the sector would continue to increase. Therefore the maritime community and ship-owning companies are attempting to achieve “green shipping”. The revolutionary technology to use the wind for assisting the ship’ propulsion is one of best steps for decarbonisation of shipping. This innovative technology could bring considerable reducing fuel consumption and cost savings, improving the ships efficiency as well. There are different ways to utilize the wind power, as several kinds of rotors, sails, kites, etc, some of them already installed on commercial ships, some are still dreams. The aim of this paper is to present the basic essence of wind-assisted propulsion and the environmental impact of its use.</p>
+                      <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px;">
+                        <a href="https://stumejournals.com/journals/i4/2024/1/17" class="btn btn-primary">Read more</a>
                       </div>
                     </div>
                   </div>
-                </a>
-              </div>
-        </div>
+                </div>
     </section>
     <footer class="bg-light footer">
         <div class="container">
